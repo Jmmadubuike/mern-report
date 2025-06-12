@@ -78,11 +78,11 @@ const NoteDetailPage = () => {
           <div className="flex items-center justify-between mb-6">
             <Link to="/" className="btn btn-ghost">
               <ArrowLeftIcon className="h-5 w-5" />
-              Back to Notes
+              Back to Report
             </Link>
             <button onClick={handleDelete} className="btn btn-error btn-outline">
               <Trash2Icon className="h-5 w-5" />
-              Delete Note
+              Delete Report
             </button>
           </div>
 

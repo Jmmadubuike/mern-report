@@ -49,12 +49,12 @@ const CreatePage = () => {
         <div className="max-w-2xl mx-auto">
           <Link to={"/"} className="btn btn-ghost mb-6">
             <ArrowLeftIcon className="size-5" />
-            Back to Notes
+            Back to Reports
           </Link>
 
           <div className="card bg-base-100">
             <div className="card-body">
-              <h2 className="card-title text-2xl mb-4">Create New Note</h2>
+              <h2 className="card-title text-2xl mb-4">Create New Report</h2>
               <form onSubmit={handleSubmit}>
                 <div className="form-control mb-4">
                   <label className="label">
